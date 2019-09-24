@@ -23,7 +23,7 @@ room.locateObject(room.keypad, 930, 250) // 위치 변경
 
 room.keypad.onClick = function() {
 	printMessage("비밀번호를 입력하시오.?")
-	showKeypad("number", "8653" , function(){ // 키패드 1 - 숫자4자리
+	showKeypad("number", "8654" , function(){ // 키패드 1 - 숫자4자리
 		room.door.unlock() // door의 잠금을 연다
 		printMessage("잠금장치가 열리는 소리가 들렸다.")
 	 })
